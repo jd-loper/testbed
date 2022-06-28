@@ -52,3 +52,58 @@ switch (day) {
 against the expression to determine which day of the week
 it is. The program will then output the correct day
 of the week to the console */
+
+/* Switch statements can also be applied to a range of values.
+The expression must be set to 'true' and an operation will be
+performed within each case */
+
+const grade = 87; // For a student's grade
+
+switch (true) {
+    case grade >= 90:
+        console.log("A");
+        break;
+    case grade >= 80:
+        console.log("B");
+        break;
+    case grade >= 70:
+        console.log("C");
+        break;
+    case grade >= 60:
+        console.log("D");
+        break;
+    default:
+        console.log("F");
+}
+
+/* Switches can also have multiple cases with the same output
+
+This example is a program to determine which season of
+the year it currently is */
+
+const month = new Date().getMonth();
+
+switch (month) {
+    case 0:
+    case 1:
+    case 2:
+        console.log("Winter");
+        break;
+    case 3:
+    case 4:
+    case 5:
+        console.log("Spring");
+        break;
+    case 6:
+    case 7:
+    case 8:
+        console.log("Summer");
+        break;
+    case 9:
+    case 10:
+    case 11:
+        console.log("Autumn");
+        break;
+    default:
+        console.log("Something went wrong.");
+}
