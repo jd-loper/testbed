@@ -1,0 +1,1 @@
+Test area for educational purposes and notes.
