@@ -50,3 +50,62 @@ const cats = ["Tiger", "Jaguar", "Lion", "Leopard"];
 for (const cat of cats) {
     console.log(cat);
 }
+
+/* The 'map()' method allows you to change items in a collection,
+then stores the changed items in a new collection.
+
+The following example will convert the items in the 'countries'
+array to uppercase letters, then print the results to the console. */
+
+function toUpper(string) {
+    return string.toUpperCase();
+}
+
+const countries = ["Canada", "Germany", "Mexico", "France"];
+
+const upperCountries = countries.map(toUpper);
+
+console.log(upperCountries);
+
+/* You can use 'filter()' to test each item in a collection against
+a specified filter, and create a new collection containing items
+that match. */
+
+function lFruits(fruit) {
+    return fruit.startsWith("L");
+}
+
+const fruits = ["Banana", "Lemon", "Apple", "Lime"];
+
+const filtered = fruits.filter(lFruits);
+
+console.log(filtered);
+
+/* Instead of using a 'for...of' loop, you can iterate through a
+collection using a standard 'for' loop.
+
+In most cases, it is best practice to use 'for...of' with
+collections/arrays. */
+
+const candy = ["Snickers", "Reese's", "Butterfinger", "Hershey's"];
+
+for (let i = 0; i < candy.length; i++) {
+    console.log(candy[i]);
+}
+
+/* Using a 'for' loop, the example below will output a custom
+message listing items in a collection. */
+
+const dogs = ["Max", "Juno", "Snowflake", "Curly"];
+
+let myFavoriteDogs = "My dogs are called ";
+
+for (let i = 0; i < dogs.length; i++) {
+    if (i === dogs.length - 1) {
+        myFavoriteDogs += `and ${dogs[i]}.`
+    } else {
+        myFavoriteDogs += `${dogs[i]}, `
+    }
+}
+
+console.log(myFavoriteDogs);
