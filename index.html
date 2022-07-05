@@ -10,100 +10,22 @@
         * {
             font-family: Arial, Helvetica, sans-serif;
         }
-        b {
-            font-size: larger;
-            color: red;
-        }
         h1 {
-            text-decoration: underline dashed;
+            text-align: center;
+            font-weight: 100;
+            color: red;
         }
     </style>
 </head>
 <body>
-    <h1>JavaScript Testbed</h1>
 
-    <h2>Types of Data</h2>
-    <ul>
-        <li>number: numbers of any kind.</li>
-        <li>bigint: big numbers of arbitrary length.</li>
-        <li>string: for strings with zero or more characters.</li>
-        <li>boolean: for true/false statements.</li>
-        <li>null: for unknown or empty values.</li>
-        <li>undefined: for unassigned values.</li>
-        <li>object: for complex data structures.</li>
-        <li>symbol: for unique identifiers.</li>
-    </ul>
+    <h1><em>JavaScript Testbed</em></h1>
 
-    <h2>Comparisons</h2>
-    <ul>
-        <li>Comparison operators return a boolean value.</li>
-        <li>Strings are compared letter-by-letter.</li>
-        <li>When values of different types are compared, they are converted to numbers.</li>
-        <li>The values <b>null</b> and <b>undefined</b> equal <b>==</b> each other and do not equal any other value.</li>
-        <li>A strict equality operator <b>===</b> checks the equality without type conversion.</li>
-    </ul>
+    <p id="demo"></p>
 
-    <ul>
-        <li>Comparison operators:</li>
-            <ul>
-                <li><b>==</b> equal to.</li>
-                <li><b>===</b> equal value and type.</li>
-                <li><b>!=</b> not equal.</li>
-                <li><b>!==</b> not equal value and type.</li>
-                <li><b>></b> greater than.</li>
-                <li><b><</b> less than.</li>
-                <li><b>>=</b> greater than or equal to.</li>
-                <li><b><=</b> less than or equal to.</li>
-            </ul>
-    </ul>
+    <script>
 
-    <h2>Conditionals</h2>
-    <ul>
-        <li>Use <b>if</b> to specify a block of code to be executed, if a specified condition is true.</li>
-        <li>Use <b>else</b> to specify a block of code to be executed, if the same condition is false.</li>
-        <li>Use <b>else if</b> to specify a new condition to test, if the first condition is false.</li>
-        <li>Use <b>switch</b> to specify many alternative blocks of code to be executed.</li>
-    </ul>
-
-    <ul>
-        <li>The ternary operator <b>?</b> may be used in place of longer <b>if</b> and <b>else</b> statements.</li>
-        <li>The ternary operator <b>?</b> takes three arguments:</li>
-            <ul>
-                <li>A comparison argument.</li>
-                <li>A result upon a true comparison.</li>
-                <li>A result upon a false comparison.</li>
-            </ul>
-    </ul>
-
-    <h2>Logical Operators</h2>
-    <ul>
-        <li>The logical operator OR <b>||</b> can be used in an <b>if</b> statement to test if any given condition is <b>true</b>.</li>
-        <li>OR <b>||</b> will evaluate operands from left to right and return the first truthy value, if given multiple <b>||</b> values.</li>
-        <li>If all operands are false, only the last operand will be returned.</li>
-    </ul>
-
-    <ul>
-        <li>AND <b>&&</b> returns <b>true</b> if both operands are truthy, and <b>false</b> otherwise.</li>
-        <li>Given multiple <b>&&</b> values, only the first falsy value will be returned.</li>
-        <li>AND <b>&&</b> has higher precedence than OR <b>||</b>.</li>
-    </ul>
-
-    <ul>
-        <li>NOT <b>!</b> converts an operand to boolean type <b>true</b> or <b>false</b> and returns the inverse value.</li>
-        <li>NOT <b>!</b> has the highest precedence of all logical operators.</li>
-    </ul>
-
-    <h2>Functions</h2>
-
-    <ul>
-        <li>Functions are reusable blocks of code.</li>
-        <li>A function can be called whenever needed instead of rewriting the code.</li>
-        <li>Invoking a function means to run, or execute.</li>
-        <li>Some functions require parameters (values within the function parentheses).</li>
-        <li>Variables and other code defined inside a function are within their own scope.</li>
-        <li>Variables defined outside of all functions are in the global scope.</li>
-        <li>Arguments are values that are passed to the function.</li>
-    </ul>
-
+    </script>
+    
 </body>
 </html>
