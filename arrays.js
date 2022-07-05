@@ -63,3 +63,15 @@ for (let i = 0; i < sLen; i++) {
     text += "<li>" + states[i] + "</li>";
 }
 text += "</ul>";
+
+/* You can also add elements to an existing array using
+the 'push()' method or the 'length' property. */
+
+states.push("Washington");
+
+states[states.length] = "Rhode Island"
+
+/* It is important to remember that in JavaScript, arrays
+always use numbered indexes.
+
+Objects always use named indexes. */
