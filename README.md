@@ -1,1 +1,3 @@
-Test area for educational purposes and notes.
+For my educational purposes.
+
+Curriculum derived from MDN, JavaScript.info, W3Schools, and The Odin Project.
