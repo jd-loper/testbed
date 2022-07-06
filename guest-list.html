@@ -17,19 +17,13 @@
         admitted.textContent = 'Admit: ';
         refused.textContent = 'Refuse: ';
 
-        let i = 0;
-
-        while (i < people.length) {
-            if (i === 4) {
-                refused.textContent += `${people[i]}, `
-            } else if (i === 5) {
-                refused.textContent += `${people[i]}, `
+        for (const person of people) {
+            if (person === "Phil" || person === "Lola") {
+                refused.textContent += `${person}, `
             } else {
-                admitted.textContent += `${people[i]}, `
+                admitted.textContent += `${person}, `
             }
-
-            i++;
-        }
+        }        
     </script>
 </body>
 </html>
