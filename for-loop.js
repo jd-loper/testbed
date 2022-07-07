@@ -87,7 +87,7 @@ collection using a standard 'for' loop.
 In most cases, it is best practice to use 'for...of' with
 collections/arrays. */
 
-const candy = ["Snickers", "Reese's", "Butterfinger", "Hershey's"];
+const candy = ["Snickers", "Reese's", "Butterfinger"];
 
 for (let i = 0; i < candy.length; i++) {
     console.log(candy[i]);
@@ -109,3 +109,16 @@ for (let i = 0; i < dogs.length; i++) {
 }
 
 console.log(myFavoriteDogs);
+
+/* The 'continue' directive can be used to stop the current
+iteration and force the loop to start a new one.
+
+The following example uses 'continue' to output only odd
+values in each iteration. Even values will be skipped
+over. */
+
+for (let i = 0; i < 10; i++) {
+    if (i % 2 == 0) continue;
+
+    alert(i);
+}
