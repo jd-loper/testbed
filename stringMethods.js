@@ -15,3 +15,14 @@ const str = "Split this string.";
 const split = str.split(" ");
 console.log(split);
 // Output: ["Split", "this", "string."]
+
+/* The example below will split a string into an array,
+reverse the contents in the array, and join them back
+together to form a new string.
+
+This is because strings are immutable and cannot be
+reversed in-place. */
+
+const text = "hello world";
+const reverseText = text.split("").reverse().join("");
+console.log(reverseText);
