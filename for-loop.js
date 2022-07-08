@@ -122,3 +122,16 @@ for (let i = 0; i < 10; i++) {
 
     alert(i);
 }
+
+// By using a loop, strings can be repeated:
+const repeatString = function(str, num) {
+    let repeatedString = "";
+
+    for (i = 0; i < num; i++) {
+        repeatedString += str;
+    }
+
+    console.log(repeatedString);
+}
+
+repeatString("Repeat", 5);
