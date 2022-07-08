@@ -4,9 +4,16 @@ commas. */
 const soda = ["Coca-Cola", "Mountain Dew", "Dr. Pepper"];
 document.getElementById("demo").innerHTML = soda.toString();
 
-/* The 'join()' method allows you to specify a separator. */
+/* The 'join()' method allows you to specify a separator
+and returns array elements as a string. */
 
 document.getElementById("demo").innerHTML = soda.join(" * ");
+
+/* The 'reverse()' method reverses the order of elements
+in an array. */
+
+const colors = ["Red", "Yellow", "Blue", "Black"];
+colors.reverse();
 
 /* The 'pop()' method removes the last element from
 an array. This method will return the value that was
