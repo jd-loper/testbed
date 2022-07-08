@@ -1,0 +1,6 @@
+/* This program will convert Fahrenheit values to
+Celsius.
+
+The user will be prompted to input a value in Fahrenheit.
+The program will run the value through a conversion formula.
+The program will output the new Celsius value. */
