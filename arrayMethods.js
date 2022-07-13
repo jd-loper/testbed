@@ -64,3 +64,10 @@ It will place the removed element into a new array. */
 const states = ["Florida", "New York", "Arizona"];
 const east = states.slice(2);
 // Returns: Arizona
+
+/* The 'forEach()' method executes a given function once for
+each array element. This example will output each array element
+to the console. */
+
+const letters = ["A", "B", "C"];
+letters.forEach(element => console.log(element));
