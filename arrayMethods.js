@@ -71,3 +71,11 @@ to the console. */
 
 const letters = ["A", "B", "C"];
 letters.forEach(element => console.log(element));
+
+/* The 'filter()' method creates a copy of an array containing
+elements that have been passed through a specified filter.
+If no elements pass, the new array will be empty. */
+
+const words = ["Elite", "Limit", "Present", "Familiar"];
+const result = words.filter(word => word.length > 6);
+// Returns: ["Present", "Familiar"]
